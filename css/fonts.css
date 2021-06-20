@@ -9,4 +9,15 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Acumin Pro';
+    src: url('../fonts/Acumin/AcuminPro-Regular.eot');
+    src: url('../fonts/Acumin/AcuminPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Acumin/AcuminPro-Regular.woff2') format('woff2'),
+        url('../fonts/Acumin/AcuminPro-Regular.woff') format('woff'),
+        url('../fonts/Acumin/AcuminPro-Regular.svg#AcuminPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 

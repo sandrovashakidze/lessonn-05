@@ -32,20 +32,16 @@ body{
 /* Trending */
 .trending{
     width: 1160px;
-    background-color: #00afaf;
     margin: 0 auto;
     margin-bottom: 50px;
+    padding: 5px;
 }
-
-
 .cont{
     width: 360px;
     background-color: #ffffff;
     margin-left: 20px;
     position: relative;
-
 }
-
 .title{
     position: absolute;
     top: 40px;
@@ -56,22 +52,60 @@ body{
 .news{
     border-radius: 3px;
 }
+.title-trend{
+    font-size: 24px;
+    color: #202124;
+    font-family: 'Helvetica';
+    margin-bottom: 30px;
+    margin-left: 20px;
 
+}
+.content{
+    width: 360px;
+    height: 175px;
+    padding: 40px;
+}
+.lorem{
+    font-size: 13px;
+    font-family: 'Acumin Pro';
+    margin-bottom: 10px;
+    color: #A6ADB4;
+}
+.data{
+    color: #CBD0D3;
+    font-family: 'Acumin Pro';
+    font-weight: 999;
+}
+.data::before{
+    content: url(../img/time.svg);
+    vertical-align: middle;
+    margin-right: 10px;
+    font-weight: 999;
+}
 /* Heppening */
 .happening{
     width: 1160px;
-    background-color: red;
     margin: 0 auto;
 }
 
 .box1{
     width: 760px;
-    background-color: green;
     vertical-align: top;
+    margin-right: 10px;
 }
-.box3{
+.img11{
+    margin-bottom: 40px;
+}
+.box2{
     width: 360px;
-    background-color: green;
+}
+.hapy{
+    font-size: 24px;
+    font-family: 'Helvetica';
+    margin-bottom: 40px;
+}
+.box2 .img2{
+    margin-bottom: 100px;
 }
 
 /* Footer */
@@ -80,4 +114,27 @@ body{
     background-color: #A6ADB4;
     padding: 70px 50px;
     margin-top: 30px;
+}
+
+.ul-1{ /* base class*/
+    vertical-align: top;
+}
+.f6565367{
+    margin-right: 90px;
+}
+.ullfe{
+    font-size: 13px;
+    font-family: 'Helvetica';
+    margin-right: 75px;
+}
+.li-foot{
+    color: #CBD0D3;
+}
+.copy{
+    color: white;
+    margin-right: 150px ;
+}
+.img-foot{
+    margin-right: 32px;
+
 }
