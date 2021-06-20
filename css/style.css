@@ -1,0 +1,83 @@
+/* base style */
+.d-inline-block{
+    display: inline-block;
+}
+body{
+    padding-top: 100px;
+}
+/* header */
+.head{
+    width: 100%;
+    background-color: red;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.logo{
+    vertical-align: middle;
+    margin-right: 50px;
+}
+.nav-li{
+    padding-right: 50px;
+    font-family: 'Helvetica';
+}
+.user{
+    vertical-align: middle;
+}
+
+
+/* Trending */
+.trending{
+    width: 1160px;
+    background-color: #00afaf;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+.cont{
+    width: 360px;
+    background-color: #ffffff;
+    margin-left: 20px;
+    position: relative;
+
+}
+
+.title{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    font-size: 16px;
+    color: white;
+}
+.news{
+    border-radius: 3px;
+}
+
+/* Heppening */
+.happening{
+    width: 1160px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+.box1{
+    width: 760px;
+    background-color: green;
+    vertical-align: top;
+}
+.box3{
+    width: 360px;
+    background-color: green;
+}
+
+/* Footer */
+.footer{
+    width: 100%;
+    background-color: #A6ADB4;
+    padding: 70px 50px;
+    margin-top: 30px;
+}
